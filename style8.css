@@ -1,0 +1,52 @@
+
+
+.div {
+  width: 50px;
+  height: 50px;
+  background: #808080;
+  display:flex ;
+  display: inline-block;
+  justify-content: space-between;
+}
+.block {
+  display: flex;
+  display: inline-block;
+  justify-content: space-between;
+}
+.red {
+  background: red;
+}
+.blue {
+  background: blue;
+}
+
+.button {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.button::after,
+.button::before {
+    content: "";
+    width: 200px;
+    height: 2px;
+    border: 2px solid #C4C4C4;;
+    margin: 95px 46px;
+    border-right: 0;
+    border-left: 0;
+   
+}
+.butt {
+  width: 501px;
+  height: 92px;
+  cursor: pointer;
+  margin-top: 50px;
+  background: #44D3A8;
+  border: none;
+  border-radius: 100px;
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
